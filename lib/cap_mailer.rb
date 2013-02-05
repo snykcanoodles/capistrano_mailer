@@ -106,7 +106,7 @@ class CapMailer < ActionMailer::Base
 
     self.config.assets_dir = "#{File.dirname(__FILE__)}/../assets"
 
-    mail :subject       => "#{@job_status.to_s.upcase}: #{subject_line}",
+    mail :subject       => "#{subject_line}",
          :to            => @config[:recipient_addresses],
          :from          => @config[:sender_address],
          :template_name => template_name
