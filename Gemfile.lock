@@ -22,7 +22,6 @@ GEM
       facets
       maca-fork-csspool
       nokogiri
-    json (1.7.6)
     maca-fork-csspool (2.0.2)
       ffi
     net-scp (1.0.4)
@@ -34,8 +33,7 @@ GEM
       net-ssh (>= 1.99.1)
     nokogiri (1.5.6)
     nokogiri (1.5.6-x86-mingw32)
-    rdoc (3.12)
-      json (~> 1.4)
+    rdoc (6.3.2)
 
 PLATFORMS
   ruby
